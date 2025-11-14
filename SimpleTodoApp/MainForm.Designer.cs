@@ -60,7 +60,7 @@ namespace SimpleTodoApp
             // titleLabel
             // 
             titleLabel.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            titleLabel.Location = new Point(10, 358);
+            titleLabel.Location = new Point(10, 380);
             titleLabel.Name = "titleLabel";
             titleLabel.Size = new Size(90, 18);
             titleLabel.TabIndex = 2;
@@ -69,7 +69,7 @@ namespace SimpleTodoApp
             // titleEdit
             // 
             titleEdit.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            titleEdit.Location = new Point(10, 376);
+            titleEdit.Location = new Point(10, 398);
             titleEdit.Name = "titleEdit";
             titleEdit.Size = new Size(120, 23);
             titleEdit.TabIndex = 3;
@@ -77,7 +77,7 @@ namespace SimpleTodoApp
             // descLabel
             // 
             descLabel.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            descLabel.Location = new Point(130, 358);
+            descLabel.Location = new Point(130, 380);
             descLabel.Name = "descLabel";
             descLabel.Size = new Size(90, 18);
             descLabel.TabIndex = 4;
@@ -86,7 +86,7 @@ namespace SimpleTodoApp
             // descEdit
             // 
             descEdit.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            descEdit.Location = new Point(130, 376);
+            descEdit.Location = new Point(130, 398);
             descEdit.Name = "descEdit";
             descEdit.Size = new Size(120, 23);
             descEdit.TabIndex = 5;
@@ -98,7 +98,7 @@ namespace SimpleTodoApp
             addButton.FlatStyle = FlatStyle.Flat;
             addButton.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             addButton.ForeColor = Color.White;
-            addButton.Location = new Point(260, 376);
+            addButton.Location = new Point(260, 398);
             addButton.Name = "addButton";
             addButton.Size = new Size(80, 28);
             addButton.TabIndex = 6;
@@ -109,7 +109,7 @@ namespace SimpleTodoApp
             // priorityLabel
             // 
             priorityLabel.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            priorityLabel.Location = new Point(350, 358);
+            priorityLabel.Location = new Point(350, 380);
             priorityLabel.Name = "priorityLabel";
             priorityLabel.Size = new Size(90, 18);
             priorityLabel.TabIndex = 7;
@@ -120,7 +120,7 @@ namespace SimpleTodoApp
             priorityCombo.DropDownStyle = ComboBoxStyle.DropDownList;
             priorityCombo.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             priorityCombo.Items.AddRange(new object[] { "1", "2", "3", "4", "5" });
-            priorityCombo.Location = new Point(450, 376);
+            priorityCombo.Location = new Point(450, 398);
             priorityCombo.Name = "priorityCombo";
             priorityCombo.Size = new Size(50, 23);
             priorityCombo.TabIndex = 8;
@@ -132,7 +132,7 @@ namespace SimpleTodoApp
             editButton.FlatStyle = FlatStyle.Flat;
             editButton.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             editButton.ForeColor = Color.White;
-            editButton.Location = new Point(10, 414);
+            editButton.Location = new Point(10, 436);
             editButton.Name = "editButton";
             editButton.Size = new Size(80, 28);
             editButton.TabIndex = 9;
@@ -147,7 +147,7 @@ namespace SimpleTodoApp
             saveButton.FlatStyle = FlatStyle.Flat;
             saveButton.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             saveButton.ForeColor = Color.White;
-            saveButton.Location = new Point(100, 414);
+            saveButton.Location = new Point(100, 436);
             saveButton.Name = "saveButton";
             saveButton.Size = new Size(80, 28);
             saveButton.TabIndex = 10;
@@ -163,7 +163,7 @@ namespace SimpleTodoApp
             cancelButton.FlatStyle = FlatStyle.Flat;
             cancelButton.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             cancelButton.ForeColor = Color.White;
-            cancelButton.Location = new Point(190, 414);
+            cancelButton.Location = new Point(190, 436);
             cancelButton.Name = "cancelButton";
             cancelButton.Size = new Size(80, 28);
             cancelButton.TabIndex = 11;
@@ -179,7 +179,7 @@ namespace SimpleTodoApp
             deleteButton.FlatStyle = FlatStyle.Flat;
             deleteButton.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             deleteButton.ForeColor = Color.White;
-            deleteButton.Location = new Point(280, 414);
+            deleteButton.Location = new Point(280, 436);
             deleteButton.Name = "deleteButton";
             deleteButton.Size = new Size(80, 28);
             deleteButton.TabIndex = 12;
@@ -194,7 +194,7 @@ namespace SimpleTodoApp
             completeButton.FlatStyle = FlatStyle.Flat;
             completeButton.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             completeButton.ForeColor = Color.White;
-            completeButton.Location = new Point(370, 414);
+            completeButton.Location = new Point(370, 436);
             completeButton.Name = "completeButton";
             completeButton.Size = new Size(80, 28);
             completeButton.TabIndex = 13;

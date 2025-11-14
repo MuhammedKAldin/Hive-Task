@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpleTodoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0333092008300c32cd2885510cb01719d7dd5620")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b65bce814160ef87d3b7f53549d9f96c85ca96be")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpleTodoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpleTodoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
