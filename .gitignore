@@ -1,0 +1,15 @@
+
+bin/
+*.exe
+*.o
+*.res
+*.rc
+upx*/
+*.zip
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+desktop.ini
+SimpleTodoApp/.vs/
